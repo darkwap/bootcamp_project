@@ -1,0 +1,21 @@
+Temat 2
+Przewidywanie wzięcia pożyczki. Celem projektu jest zastosowanie modeli klasyfikacji (binarnej) do
+przewidzenia czy pożyczka zostanie udzielona danemu klientowi z danymi parametrami wniosku.
+Link do danych:
+https://raw.githubusercontent.com/saimadhu-polamuri/DataHakthon3X/master/dataSet/Train.csv
+Opis danych (najdokładniejszy jaki istnieje):
+https://discuss.analyticsvidhya.com/t/hackathon-3-x-predict-customer-worth-for-happy-customer-b
+ank/3802
+Zmienna celu (wypłacenie pożyczki): Disbursed
+Wymogi:
+● Zmienna LoggedIn nie może być uwzględniona w modelowaniu - należy ją od razu wyrzucić ze
+zbioru.
+● Nie usuwamy żadnych obserwacji - braki danych uzupełniamy w jakiś sposób.
+● Wszelkie nieoczywiste przekształcenia danych należy opatrzyć uzasadnieniem dlaczego
+dokonujemy tego przekształcenia (np. robimy wykres i uzasadniamy wzięci logarytmu ze
+zmiennej tym, że rozkład jest skośny).
+● Należy wykorzystać przynajmniej 3 metody klasyfikacji.
+● Należy uwzględnić optymalizację modeli/pipelinów.
+● Projekt musi być zakończony przejrzystym porównaniem przetestowanych rozwiązań
+(modeli/pipelinów) w postaci tabeli, gdzie jeden wiersz opisuje jedno rozwiązanie i jego
+wynik.
